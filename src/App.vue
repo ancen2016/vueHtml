@@ -24,7 +24,8 @@ const router = useRouter()
 
 const games = [
   { name: '贪吃蛇', path: '/snake', desc: '经典贪吃蛇小游戏' },
-  // 你可以在这里添加更多小游戏
+  { name: '井字棋', path: '/tictactoe', desc: '双人对战井字棋' },
+  { name: '2048', path: '/2048', desc: '数字合成2048挑战' },
 ]
 </script>
 
